@@ -1,13 +1,17 @@
 import React from 'react';
 import {BrowseRouter as Router, link} from 'react-dom'
+import Background from '../preview.png'
 
 export default function Main() {
+  const gradientStyles = {
+    background: "linear-gradient(to right, #abbaab, #ffffff)"
+  }
   return (
     <>
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url("https://images.alphacoders.com/103/103593.jpg")`,
+          backgroundImage: `url("${Background} ")`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
@@ -35,8 +39,9 @@ export default function Main() {
 
 
 
-      <section>
-  <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+<section>
+  <div class="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8"
+  style={gradientStyles}>
     <div
       class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16"
     >
@@ -387,3 +392,6 @@ export default function Main() {
     </>
   );
 }
+ const gradientStyles = {
+    background: "linear-gradient(to right, #ff0000, #ffff00)"
+  };
