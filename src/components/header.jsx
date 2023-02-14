@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Logo from '../greathill.png';
 export default function Header() {
   return (
     <div className="navbar bg-base-100">
@@ -59,10 +59,16 @@ export default function Header() {
             <li>
               <a>Item 3</a>
             </li>
-            
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a>
+
+        <img
+          alt="Logo, greathill"
+          src={Logo}
+          className="btn btn-ghost normal-case text-xl"
+        />
+
+        {/**  <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a> */}
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
