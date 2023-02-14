@@ -59,6 +59,7 @@ export default function Header() {
             <li>
               <a>Item 3</a>
             </li>
+            
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a>
@@ -92,6 +93,18 @@ export default function Header() {
                 <a>Submenu 2</a>
               </li>
             </ul>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+          <li>
+            <a>Contact</a>
           </li>
           <li>
             <a>Contact</a>
