@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../greathill.png';
 export default function Header() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-white bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -62,13 +62,13 @@ export default function Header() {
           </ul>
         </div>
 
-        <img
+       {/**  <img
           alt="Logo, greathill"
           src={Logo}
           className="btn btn-ghost normal-case text-xl"
-        />
+        />*/}
 
-        {/**  <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a> */}
+         <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a> 
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

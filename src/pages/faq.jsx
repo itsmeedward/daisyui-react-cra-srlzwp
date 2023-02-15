@@ -2,99 +2,33 @@ import React from 'react';
 export default function Faq() {
   return (
     <>
-      <div className="flow-root">
-        <div className="-my-8 divide-y divide-gray-100">
-          <details
-            className="group py-8 [&_summary::-webkit-details-marker]:hidden"
-            open
-          >
-            <summary className="flex items-center justify-between cursor-pointer">
-              <h2 className="text-lg font-medium text-gray-900">
-                Lorem ipsum dolor sit amet consectetur adipisicing?
-              </h2>
-              <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </span>
-            </summary>
-            <p className="mt-4 leading-relaxed text-gray-700">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-              veritatis molestias culpa in, recusandae laboriosam neque aliquid
-              libero nesciunt voluptate dicta quo officiis explicabo
-              consequuntur distinctio corporis earum similique!
-            </p>
-          </details>
-          <details className="group py-8 [&_summary::-webkit-details-marker]:hidden">
-            <summary className="flex items-center justify-between cursor-pointer">
-              <h2 className="text-lg font-medium text-gray-900">
-                Lorem ipsum dolor sit amet consectetur adipisicing?
-              </h2>
-              <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </span>
-            </summary>
-            <p className="mt-4 leading-relaxed text-gray-700">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-              veritatis molestias culpa in, recusandae laboriosam neque aliquid
-              libero nesciunt voluptate dicta quo officiis explicabo
-              consequuntur distinctio corporis earum similique!
-            </p>
-          </details>
-        </div>
-      </div>
+      <section className="dark:bg-gray-800 dark:text-gray-100">
+	<div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+		<p className="p-2 text-sm font-medium tracking-wider text-center uppercase">How it works</p>
+		<h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
+		<div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+			<details>
+				<summary className="py-2 outline-none cursor-pointer focus:underline">Optio maiores eligendi molestiae totam dolores similique?</summary>
+				<div className="px-4 pb-4">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
+				</div>
+			</details>
+			<details>
+				<summary className="py-2 outline-none cursor-pointer focus:underline">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
+				<div className="px-4 pb-4">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
+				</div>
+			</details>
+			<details>
+				<summary className="py-2 outline-none cursor-pointer focus:underline">Magni reprehenderit possimus debitis?</summary>
+				<div className="px-4 pb-4 space-y-2">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
+					<p>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
+				</div>
+			</details>
+		</div>
+	</div>
+</section>
     </>
   );
 }
