@@ -1,16 +1,14 @@
 export default function Third(){
   return(
-    <section class="bg-white">
+   <section class="  ">
   <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
     <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
-        Trusted by eCommerce Businesses
+      <h2 class="text-3xl font-bold sm:text-4xl">
+        Trusted by Greathill
       </h2>
 
-      <p class="mt-4 text-gray-500 sm:text-xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores
-        laborum labore provident impedit esse recusandae facere libero harum
-        sequi.
+      <p class="mt-4  sm:text-xl">
+        Greathill is a leading provider of innovative solutions for e-commerce businesses. Our cutting-edge technology helps online retailers boost sales and streamline their operations. Our expert team of developers and marketers is dedicated to providing personalized support and advice to help you succeed.
       </p>
     </div>
 
@@ -24,7 +22,7 @@ export default function Third(){
           </dt>
 
           <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">
-            $4.8m
+            $10.2m
           </dd>
         </div>
 
@@ -35,7 +33,7 @@ export default function Third(){
             Official Addons
           </dt>
 
-          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">36</dd>
         </div>
 
         <div
@@ -45,11 +43,12 @@ export default function Third(){
             Total Addons
           </dt>
 
-          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+          <dd class="text-4xl font-extrabold text-blue-600 md:text-5xl">112</dd>
         </div>
       </dl>
     </div>
   </div>
 </section>
+
   )
 }

@@ -1,8 +1,8 @@
 export default function Second() {
   
   return (
-    <section className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5">
-    <div className="w-full p-6 rounded-md sm:p-16 xl:col-span-2 dark:bg-gray-900">
+    <section className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5 ">
+    <div className="w-full p-6 rounded-md sm:p-16 xl:col-span-2 ">
       <span className="block mb-2 dark:text-violet-400">Mamba design system</span>
       <h1 className="text-5xl font-extrabold dark:text-gray-50">Build it with Mamba</h1>
       <p className="my-8">

@@ -1,10 +1,14 @@
 import React from 'react';
+import {  Link } from 'react-router-dom';
+
 import Logo from '../greathill.png';
+
 export default function Header() {
   return (
-    <div className="navbar bg-white bg-base-100">
-      <div className="navbar-start">
-        <div className="dropdown">
+
+    <div className="navbar  bg-base-100 z-40">
+      <div className="navbar-start z-40">
+        <div className="dropdown z-40">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +27,7 @@ export default function Header() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-40"
           >
             <li>
               <a>Home</a>
@@ -34,8 +38,8 @@ export default function Header() {
             <li>
               <a>Home</a>
             </li>
-            <li tabIndex={0}>
-              <a className="justify-between">
+            <li tabIndex={0} className="z-40">
+              <a className="justify-between z-40">
                 About
                 <svg
                   className="fill-current"
@@ -62,25 +66,28 @@ export default function Header() {
           </ul>
         </div>
 
-       {/**  <img
+        {/**  <img
           alt="Logo, greathill"
           src={Logo}
           className="btn btn-ghost normal-case text-xl"
-        />*/}
+        />
+         <Link to="/">Home</Link >
+        */}
 
-         <a className="btn btn-ghost normal-case text-xl">Greathill ltd.</a> 
+        <a className="btn btn-ghost normal-case text-xl"> <Link to="/">Greathill ltd.</Link ></a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
-          </li>
+          <Link to="/">Home</Link >
+         </li>
           <li>
-            <a>Services</a>
+          <Link to="/contact">Contact</Link >
+
           </li>
           <li tabIndex={0}>
             <a>
-              About
+            About
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +100,7 @@ export default function Header() {
             </a>
             <ul className="p-2">
               <li>
-                <a>Submenu 1</a>
+              <Link to="/about">About Us</Link >
               </li>
               <li>
                 <a>Submenu 2</a>

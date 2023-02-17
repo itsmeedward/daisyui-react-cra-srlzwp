@@ -4,6 +4,7 @@ import Fifth from './heroes/fifth';
 import First from './heroes/first';
 import Fourth from './heroes/fourth';
 import Second from './heroes/second';
+import Seventh from './heroes/seventh';
 import Sixth from './heroes/sixth';
 import Third from './heroes/third';
 
@@ -16,12 +17,15 @@ export default function Main() {
 
   return (
     <>
+          
       <First />
-      
+
       <Third />
       <Fourth />
+      
       <Fifth />
-      <Sixth/>
+      <Seventh />
+      <Sixth />
 
       <section className="dark:bg-gray-800 dark:text-gray-100">
         <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
