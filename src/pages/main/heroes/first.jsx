@@ -1,23 +1,33 @@
 import React from 'react';
 
 function First() {
-  const gradientStyles = {
-    background: 'linear-gradient(to right, #abbaab, #ffffff)',
-  };
+  
   return (
-    <section>
-    <div className="bg-gradient-to-r from-red-400 via-violet-400 to-green-400 p-4 dark:bg-violet-400  rounded-md">
-      <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
-        <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl dark:text-gray-900">Provident blanditiis cum exercitationem</h1>
-        <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
-        <div className="flex flex-wrap justify-center">
-          <button type="button" className="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Get started</button>
-          <button type="button" className="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900">Learn more</button>
-        </div>
-      </div>
+    <section className="bg-white dark:bg-gray-900">
+ 
+  <div className="container px-6 py-16 mx-auto text-center">
+    <div className="max-w-lg mx-auto">
+      <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">
+        Building Your Next App with our Awesome components
+      </h1>
+      <p className="mt-6 text-gray-500 dark:text-gray-300">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+        similique obcaecati illum mollitia.
+      </p>
+      <button className="px-5 py-2 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none">
+        Start 14-Day free trial
+      </button>
+      <p className="mt-3 text-sm text-gray-400 ">No credit card required</p>
     </div>
-    
-  </section>
+    <div className="flex justify-center mt-10">
+      <img
+        className="object-cover w-full h-96 rounded-xl lg:w-4/5"
+        src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+      />
+    </div>
+  </div>
+</section>
+
   );
 }
 export default First;
