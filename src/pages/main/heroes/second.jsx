@@ -1,27 +1,26 @@
 export default function Second() {
-  
   return (
-    <section className="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5 ">
-    <div className="w-full p-6 rounded-md sm:p-16 xl:col-span-2 ">
-      <span className="block mb-2 dark:text-violet-400">Mamba design system</span>
-      <h1 className="text-5xl font-extrabold dark:text-gray-50">Build it with Mamba</h1>
-      <p className="my-8">
-        <span className="font-medium dark:text-gray-50">Modular and versatile.</span>The ultimate design toolkit for savvy technology startups.
-      </p>
-      <form novalidate="" action="" className="self-stretch space-y-3 ng-untouched ng-pristine ng-valid">
-        <div>
-          <label for="name" className="text-sm sr-only">Your name</label>
-          <input id="name" type="text" placeholder="Your name" className="w-full rounded-md focus:ring focus:ring-violet-400 dark:border-gray-700" />
+    <section className="bg-white dark:bg-gray-900 border-t border-gray-400">
+      <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+        <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+          Bring your Business to the{' '}
+          <span className="text-blue-500">next level.</span>
+        </h2>
+        <p className="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quidem
+          officiis reprehenderit, aperiam veritatis non, quod veniam fuga
+          possimus hic explicabo laboriosam nam. A tempore totam ipsa nemo
+          adipisci iusto!
+        </p>
+        <div className="inline-flex w-full mt-6 sm:w-auto">
+          <a
+            href="#"
+            className="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
+          >
+            Sign Up
+          </a>
         </div>
-        <div>
-          <label for="lastname" className="text-sm sr-only">Email address</label>
-          <input id="lastname" type="text" placeholder="Email address" className="w-full rounded-md focus:ring focus:ring-violet-400 dark:border-gray-700" />
-        </div>
-        <button className="w-full py-2 font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Join the waitlist</button>
-      </form>
-    </div>
-    <img src="https://source.unsplash.com/random/480x360" alt="" className="object-cover w-full h-full rounded-md xl:col-span-3 dark:bg-gray-500" />
-</section>
-
+      </div>
+    </section>
   );
 }

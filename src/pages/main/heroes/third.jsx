@@ -3,7 +3,7 @@ export default function Third(){
    <section class="  ">
   <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
     <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-3xl font-bold sm:text-4xl">
+      <h2 class="text-3xl font-semibold sm:text-4xl">
         Trusted by Greathill
       </h2>
 

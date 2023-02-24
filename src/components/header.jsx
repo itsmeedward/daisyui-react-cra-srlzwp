@@ -27,7 +27,7 @@ export default function Header() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 z-40"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52 z-40"
           >
             <li>
               <a>Home</a>
@@ -99,10 +99,10 @@ export default function Header() {
               </svg>
             </a>
             <ul className="p-2">
-              <li>
+              <li  className="bg-gray-100 text-gray-600">
               <Link to="/about">About Us</Link >
               </li>
-              <li>
+              <li className="bg-gray-100 text-gray-600">
                 <a>Submenu 2</a>
               </li>
             </ul>
